@@ -1,0 +1,71 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3843236125656049029",
+      "lastPropertyId": "3:9107390553790338962",
+      "name": "Contact",
+      "properties": [
+        {
+          "id": "1:6086003057140844976",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7849422041316058134",
+          "name": "udid",
+          "type": 9
+        },
+        {
+          "id": "3:9107390553790338962",
+          "name": "token",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:883239851409166560",
+      "lastPropertyId": "4:1073134582237683631",
+      "name": "MyQrCode",
+      "properties": [
+        {
+          "id": "1:1618682537582786487",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2494016392283225145",
+          "name": "content",
+          "type": 9
+        },
+        {
+          "id": "3:4868542911455003240",
+          "name": "pcr",
+          "type": 1
+        },
+        {
+          "id": "4:1073134582237683631",
+          "name": "type",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:883239851409166560",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
